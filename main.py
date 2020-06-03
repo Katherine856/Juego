@@ -21,7 +21,7 @@ class main():
     botonN = recursos.Boton(img3,558,450)
     img4 = pygame.image.load("Img/spritesS/SCD2.png")
     botonS = recursos.Boton(img4,718,440)
-
+    director = Director()
     jugando = False
     ejecutando = True
 
@@ -29,26 +29,18 @@ class main():
         for event in pygame.event.get():
             if event.type == pygame.MOUSEBUTTONDOWN:
                 if cursor1.colliderect(botonZ.rect):
-                    director = Director()
                     director.setBuilder(ConstructorZombis())
-                    player = director.getHeroe()
                     jugando = True
                 if cursor1.colliderect(botonC.rect):
-                    director = Director()
                     director.setBuilder(ConstructorCaballeros())
-                    player = director.getHeroe()
                     jugando = True
                 if cursor1.colliderect(botonN.rect):
-                    director = Director()
                     director.setBuilder(ConstructorNinjas())
-                    player = director.getHeroe()
                     jugando = True
                 if cursor1.colliderect(botonS.rect):
-                    director = Director()
                     director.setBuilder(ConstructorSatiros())
-                    player = director.getHeroe()
                     jugando = True
-
+                player = director.getHeroe()
             if event.type == pygame.QUIT:
                 ejecutando = False
             
