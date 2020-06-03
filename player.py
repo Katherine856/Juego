@@ -3,12 +3,6 @@ from pygame.sprite import Sprite
 from pygame import *
 
 class Personaje(Sprite):
-    instance = None
-
-    def __new__(cls, *args, **kargs):
-        if cls.instance is None:
-            cls.instance = object.__new__(cls, *args, **kargs)
-        return cls.instance
 
     def __init__(self):
         Sprite.__init__(self)
