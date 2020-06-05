@@ -12,6 +12,6 @@ El personaje se elige haciendo click sobre la imagen, para desplazarse se utiliz
 
 ## Patrones
 
-Abstrac Factory: Las fabricas de cada uno de los personajes, junto con los productos que vendrian siendo las acciones que este puede realizar
+Abstract Factory: Las fabricas de cada uno de los personajes, junto con los productos que vendrian siendo las acciones que este puede realizar
 
 Builder: Los constructores de cada uno de los personajes y asignarle a este los sprites de acuerdo a el personaje escogido
