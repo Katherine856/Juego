@@ -18,5 +18,6 @@ Builder: Los constructores de cada uno de los personajes y asignarle a este los 
 
 ## UML
 
-![Uml_juego](https://user-images.githubusercontent.com/54810355/83835101-86423a00-a6b5-11ea-873b-6712de87c30c.jpg)
+![Uml_juego](https://user-images.githubusercontent.com/61293194/83841358-50598180-a6c6-11ea-84a0-588b8f29244b.jpg)
+
 
