@@ -15,3 +15,8 @@ El personaje se elige haciendo click sobre la imagen, para desplazarse se utiliz
 Abstract Factory: Las fabricas de cada uno de los personajes, junto con los productos que vendrian siendo las acciones que este puede realizar
 
 Builder: Los constructores de cada uno de los personajes y asignarle a este los sprites de acuerdo a el personaje escogido
+
+## UML
+
+![Uml_juego](https://user-images.githubusercontent.com/54810355/83835101-86423a00-a6b5-11ea-873b-6712de87c30c.jpg)
+
