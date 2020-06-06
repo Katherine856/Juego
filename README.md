@@ -18,5 +18,6 @@ Builder: Los constructores de cada uno de los personajes y asignarle a este los 
 
 ## UML
 
+![diagrama](https://user-images.githubusercontent.com/61293194/83932020-8bf75880-a765-11ea-8dc9-671d7adebe15.jpg)
 
 
